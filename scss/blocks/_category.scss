@@ -1,0 +1,46 @@
+
+
+.category__list{
+    margin-top: 106px;
+}
+
+.category__item{
+    margin-bottom: 66.5px;
+}
+
+@include size (desktop) {
+    .category{
+        padding-bottom: 70px;
+    }
+    .category__item{
+        margin-bottom: 63.5px;
+    }
+}
+
+.category__item-box{
+    &::before{
+        content: " ";
+        display: inline-block;
+        width: 65px;
+        height: 65px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        background-image: url("../images/mobile.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }    
+}
+
+.category__link {
+    &::after{
+        content: " ";
+        display: inline-block;
+        width: 21px;
+        height: 18px;
+        margin: 0 auto;
+        margin-top: 25px;
+        background-image: url("../images/arrow.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}

@@ -1,0 +1,74 @@
+.nestOne-box {
+    &::after{
+        content: " ";
+        position: absolute;
+        top: -22px;
+        left: 253px;
+        z-index: -1;
+        width: 79px;
+        height: 79px;
+        background-image: url("../images/nestOne-decor.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .nestOne {
+        width: 240px;
+        height: auto;
+    }
+    
+    .nestOne-box::after {
+        content: " ";
+        left: 205px;
+    }
+}
+
+@media only screen and (min-width: 450px) {
+    
+    .nestOne {
+        width: 409px;
+        height: auto;
+    }
+    
+    .nestOne-box::after {
+        content: " ";
+        left: 365px;
+    }
+}
+
+@include size (tablet) {
+    .nestOne-box {
+        &::after{
+            content: " ";
+            position: absolute;
+            top: -58px;
+            left: 417px;
+            z-index: -2;
+            width: 196px;
+            height: 154px;
+        }
+    }   
+}
+
+@media only screen and (min-width: 1000px) {
+    .nestOne-box {
+        &::after{
+            content: " ";
+            position: absolute;
+            top: -58px;
+            left: 681px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1240px) {
+    .nestOne-box {
+        &::after{
+            content: " ";
+            left: 849px;
+        }
+    }
+}
+

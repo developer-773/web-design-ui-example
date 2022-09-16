@@ -1,0 +1,19 @@
+.colleagues{
+    padding-top: 103px;
+}
+
+@media only screen and (min-width:768px) {
+    .colleagues {
+        padding-top: 201px;
+    }
+}
+
+.colleagues__img-box {
+    img {
+        width: 100%;
+    }
+}
+
+.colleagues__link {
+   background-color: #DC7000;
+}

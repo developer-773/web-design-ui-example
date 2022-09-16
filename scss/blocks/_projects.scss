@@ -1,0 +1,24 @@
+.projects {
+    padding-top: 60px;
+}
+
+@include size (tablet-big) {
+    .projects {
+        padding-top: 145px;
+    }
+}
+
+.projects__text-box {
+    max-width: 497px;
+}
+
+@include size (desktop) {
+    
+    .girl{
+        width: 22% !important;
+    }
+    
+    .girls {
+        width: 36% !important;
+    }
+}

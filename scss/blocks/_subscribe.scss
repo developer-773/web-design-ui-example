@@ -1,0 +1,59 @@
+.subscribe{
+    padding-bottom: 148px;
+}
+
+
+.subscribe__box {
+    margin-bottom: 41px;
+
+}
+
+@include size (tablet) {
+    .subscribe__box {
+        margin-bottom: 74px;
+    }
+
+    .subscribe__form {
+        float: right;
+    }
+}
+
+.subscribe__form-box {
+    margin-right: 0;
+    margin-left: 0;
+    background-color: #1B1B1B;
+}
+
+
+
+.subscribe__input {
+    width: 100%;
+    max-width: 385px !important;
+    border-radius: 12px !important;
+}
+
+.subscribe__btn {
+    top: 13px;
+    left: 64%;
+    z-index: 6 !important;
+    background-color: #DC7000 ;
+    color: #fff;
+    border-radius: 12px !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .subscribe{
+        padding-bottom: 92.78px;
+    }
+
+    .subscribe__btn {
+        left: 250px;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .subscribe__btn {
+        left: 55%;
+    }
+}
+

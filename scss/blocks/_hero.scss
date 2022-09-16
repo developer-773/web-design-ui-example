@@ -1,0 +1,59 @@
+.hero{
+
+    padding-top: 128px;
+    padding-bottom: 158px;
+    background-image: url("../images/herobg-img.svg") ,url("../images/herobg-imgg.svg");
+    background-repeat: no-repeat;
+    background-position: calc(100% + 100px) calc(-16%), calc(50%) calc(100%);
+}
+
+@media only screen and (max-width: 1200px) {
+    .hero {
+        background-image: url("../images/herobg-imgg.svg");
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .hero {
+        padding-top: 108px;
+        padding-right: 25px;
+        padding-left: 25px;
+        background-image: none;
+        background-image: url("../images/Vector1.svg");
+        background-position: bottom;
+        background-color: transparent;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    .hero__title{
+        margin-bottom: 26px;
+        font-size: 50px;
+        line-height: 77px;
+    }
+
+    .nestOne-desktop {
+        width: 500px;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .nestOne-desktop {
+        width: 800px;
+    }
+}
+
+@media only screen and (min-width: 1240px) {
+    .nestOne-desktop {
+        width: 936px;
+    }
+}
+
+
+.hero__link{
+   background-image: linear-gradient(92.48deg, #FA8305 2.08%, #FB9E3C 117.25%);
+}
